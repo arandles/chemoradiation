@@ -6,4 +6,3 @@ gcc -o program wrapper.c cellModelLoop.c -lm
 
 To run the code, use: ./program input.i
 
-Sample input files are included in the sample_inputs folder. On a 2015 macbook pro laptop, the included demo ran in less than 3 minutes. The code will generate a csv file containing one line per time step simulated, showing the time step, number of GSCs, and number of tumor bulk cells. 

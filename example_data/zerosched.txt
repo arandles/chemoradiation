@@ -1,0 +1,11 @@
+ChemoWeeks = 1
+ChemoDays = 5
+ThalfPerDose = 132 132 132 132 132 -1 -1
+ChemoDay = 0 1 2 3 4 5 6
+ChemoHour = 15 15 15 15 15 15 15
+Cmax = .03600
+RadWeeks = 1
+radDoses = 10
+radDoseA = 2 2 2 2 2 0 0 0 0 0 
+radHour = 15 15 15 15 15 -1 -1 -1 -1 -1 
+radDay = 0 1 2 3 4  -1 -1 -1 -1 -1 -1 

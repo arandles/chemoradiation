@@ -1,0 +1,30 @@
+To reproduce the simulations used for Figure 3a in the paper, follow the steps below.
+
+Directory Setup
+
+For convenience and bookkeeping, create two subdirectories:
+
+sub/ — contains inputs for the suboptimal schedule runs
+opt/ — contains inputs for the optimal schedule runs
+
+
+Each directory should contain:
+
+the corresponding input files
+the run_all_* execution script
+the Python analysis script used to compute the average fractional volume change
+
+The repository is already organized in this structure, and we recommend preserving it.
+
+Build Instructions
+1. Compile the code by running the make.cmd bash file.
+2. Copy the compiled executable into both the sub/ and opt/ directories.
+
+Running the Simulations
+3. In each directory, execute the corresponding run script: run_all*sh
+This will generate the raw simulation outputs for each schedule.
+
+Postprocessing and Plot Generation
+4. In each directory, run the provided Python analysis script to generate the final CSV file containing the average fractional volume change.
+5. Use the included MATLAB plotting script to reproduce the Figure 3a plot from the generated CSV files.
+
